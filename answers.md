@@ -13,6 +13,9 @@ Mariwhy
 I passed the trainer path into redirect_to, which needed an :id parameter for the show method in the trainers controller. That way I could render the path of the trainer of the pokemon being damaged.
 # Question 5: Explain how putting this line "flash[:error] = @pokemon.errors.full_messages.to_sentence" shows error messages on your form.
 It gets the error messages from the pokemon instance and assigns it to the :error symbol of flash, and then it can be displayed in the html view.
+
+https://github.com/marielleisla/proj1
 # Give us feedback on the project and decal below!
 
 # Extra credit: Link your Heroku deployed app
+https://pokemon-sapphire.herokuapp.com/
